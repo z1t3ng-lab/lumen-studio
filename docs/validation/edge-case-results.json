@@ -1,0 +1,14 @@
+[
+  {
+    "check": "Failed photo save remains visible after another photo saves",
+    "status": "pass"
+  },
+  {
+    "check": "Changing photos during recipe read cancels application",
+    "status": "pass"
+  },
+  {
+    "check": "4000×1 input previews and exports at1600×1 without zero dimensions",
+    "status": "pass"
+  }
+]

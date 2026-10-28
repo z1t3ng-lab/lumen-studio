@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-28T16:34:57.156Z",
+  "checks": [
+    {
+      "name": "Empty library disables advanced tools",
+      "status": "pass"
+    },
+    {
+      "name": "Curve point click and keyboard nudge alter image",
+      "status": "pass"
+    },
+    {
+      "name": "Curve reset restores original pixels",
+      "status": "pass"
+    },
+    {
+      "name": "Individual red curve leaves green and blue unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "Red HSL adjustment changes red and preserves blue",
+      "status": "pass"
+    },
+    {
+      "name": "Eyedropper selects the clicked blue color range",
+      "status": "pass"
+    },
+    {
+      "name": "Radial mask local exposure and inversion have correct boundaries",
+      "status": "pass"
+    },
+    {
+      "name": "Mask disable restores unaffected image",
+      "status": "pass"
+    },
+    {
+      "name": "Brush paints, erases and undoes local mask strokes",
+      "status": "pass"
+    },
+    {
+      "name": "Dragged linear gradient applies local adjustment to selected side",
+      "status": "pass"
+    },
+    {
+      "name": "Version2 recipe saves and reloads masks",
+      "status": "pass"
+    },
+    {
+      "name": "Mask settings persist across library reload",
+      "status": "pass"
+    },
+    {
+      "name": "Clone brush replaces blemish from chosen source and undo restores it",
+      "status": "pass"
+    },
+    {
+      "name": "Heal brush removes bright spot with local color blending",
+      "status": "pass"
+    },
+    {
+      "name": "Luminance and color noise controls change actual image pixels",
+      "status": "pass"
+    },
+    {
+      "name": "Atmosphere, optics and grain controls persist in recipe",
+      "status": "pass"
+    },
+    {
+      "name": "Full-resolution export matches effect pixels and excludes clipping overlay",
+      "status": "pass"
+    },
+    {
+      "name": "J shortcut toggles clipping warning",
+      "status": "pass"
+    },
+    {
+      "name": "Advanced panels fit desktop, smaller desktop and mobile widths",
+      "status": "pass"
+    },
+    {
+      "name": "No uncaught browser errors",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "status": "pass"
+}

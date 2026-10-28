@@ -1,0 +1,47 @@
+{
+  "contract": "../DESKTOP-CONTRACT.md",
+  "targetViewports": [
+    "1500x949"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Named numeric controls and file/edit/view menu commands exercised in packaged app; larger sliders and numeric fields visually reviewed. Bounded keyboard/UI review, not full accessibility audit."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "1500x980 native window with1500x949 renderer captured and reviewed; portrait photo/sidebars/filmstrip fit. Smaller desktop window not yet inspected."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Packaged app image import completes and transitions to edited preview with enabled controls."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "First launch empty library offered sample; sample imported and edited."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "No new image-error rendering code; existing shared editor corrupt-image and quota-error regressions retained. Native disk-write failure UI remains a follow-up manual edge case."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "No new partial import rendering code; shared web editor mixed-import handling unchanged."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Actual packaged app bridge read photo and wrote PNG, restored library on relaunch."
+    },
+    "permission": {
+      "status": "untested",
+      "evidence": "Dialog API selections/cancellation mocked for repeatability. Visual OS sheets not automated."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1500x949",
+      "artifact": "desktop-app.png",
+      "observation": "Packaged app render reviewed with larger sliders, numeric inputs, photo, sidebar and filmstrip."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "page": "guide.html",
+    "status": "pass",
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "images": "loaded",
+    "horizontalOverflow": false
+  },
+  {
+    "page": "docs/evidence.html",
+    "status": "pass",
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "images": "loaded",
+    "horizontalOverflow": false
+  },
+  {
+    "check": "How it works opens real guide",
+    "status": "pass"
+  }
+]

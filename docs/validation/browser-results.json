@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-28T16:34:56.624Z",
+  "checks": [
+    {
+      "name": "Empty state has working import actions and disabled export",
+      "status": "pass"
+    },
+    {
+      "name": "PNG import and identity preview preserve neutral pixels",
+      "status": "pass"
+    },
+    {
+      "name": "+1 EV preview follows independently calculated sRGB 80 to 111",
+      "status": "pass"
+    },
+    {
+      "name": "Before/after compares original and current recipe",
+      "status": "pass"
+    },
+    {
+      "name": "Undo and redo restore actual pixel values",
+      "status": "pass"
+    },
+    {
+      "name": "Downloaded full-resolution PNG matches preview recipe numerically",
+      "status": "pass"
+    },
+    {
+      "name": "Recipe download and reload restore settings",
+      "status": "pass"
+    },
+    {
+      "name": "Square crop exports expected 240×240 dimensions",
+      "status": "pass"
+    },
+    {
+      "name": "Rotation exports transposed dimensions",
+      "status": "pass"
+    },
+    {
+      "name": "Freeform pointer crop exports actual selected rectangle",
+      "status": "pass"
+    },
+    {
+      "name": "Preset modifies stored settings",
+      "status": "pass"
+    },
+    {
+      "name": "Ratings and favorites filter work",
+      "status": "pass"
+    },
+    {
+      "name": "Reload restores original blob, edits and rating",
+      "status": "pass"
+    },
+    {
+      "name": "Source bytes remain identical after editing, export and reload",
+      "status": "pass",
+      "details": {
+        "sha256": "184bf21cdd73e04d9de1fc6423c882d2db88e10a3f73722eaac929ea78a2a80a"
+      }
+    },
+    {
+      "name": "Mixed import keeps valid files and reports unsupported file",
+      "status": "pass"
+    },
+    {
+      "name": "Corrupt image fails without damaging library",
+      "status": "pass"
+    },
+    {
+      "name": "Malformed crop recipe rejected",
+      "status": "pass"
+    },
+    {
+      "name": "Desktop layout fits 1440×900 without document overflow",
+      "status": "pass",
+      "details": {
+        "width": 1440,
+        "height": 900,
+        "viewport": 900
+      }
+    },
+    {
+      "name": "Photo export uses original 1800×1200, not 1600px preview",
+      "status": "pass"
+    },
+    {
+      "name": "JPEG export, resize and completion feedback",
+      "status": "pass"
+    },
+    {
+      "name": "Keyboard slider, undo and dialog Escape work",
+      "status": "pass"
+    },
+    {
+      "name": "Visible keyboard focus and labelled controls",
+      "status": "pass"
+    },
+    {
+      "name": "Mobile 390×844 fits width, exposes export and supports reduced motion",
+      "status": "pass",
+      "details": {
+        "scrollWidth": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "No uncaught page errors and no external network requests while editing",
+      "status": "pass"
+    },
+    {
+      "name": "Storage failure leaves editing/export usable and warns before closing",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "status": "pass"
+}

@@ -1,0 +1,39 @@
+
+> lumen-studio@0.3.1 test
+> node --test tests/engine.test.mjs tests/advanced-engine.test.mjs tests/audit-engine.test.mjs
+
+✔ old recipes gain independent defaults and no shared mutable masks (1.219916ms)
+✔ master curve lifts midtone; red curve affects only red; identity still exact (11.621ms)
+✔ selective red saturation changes red and preserves pure blue (2.758083ms)
+✔ radial and linear masks have geometry, opacity and inversion (0.896083ms)
+✔ brush mask paints segments and erases selected coverage (0.529791ms)
+✔ local exposure changes only masked region and retains alpha (2.209334ms)
+✔ luminance denoise reduces noise while preserving a strong edge (3.668958ms)
+✔ color denoise reduces chroma variance on equal-luma noise (2.160125ms)
+✔ texture/clarity/dehaze produce distinct edits and zero settings preserve source (4.62875ms)
+✔ clone samples selected source, heal reduces a blemish, strokes remain immutable (1.342625ms)
+✔ optics identity is exact; channel alignment and defringe alter appropriate data (1.90225ms)
+✔ grain is repeatable, nonuniform and preserves alpha (1.61825ms)
+✔ clipping excludes transparent pixels and identifies channel highlights (0.124ms)
+✔ malformed curves, masks and retouch recipes fail with clear errors (0.3295ms)
+✔ one eraser stroke has the same feather at sparse and dense pointer sampling (13.682625ms)
+✔ linear mask feather changes transition width and zero feather is a hard edge (1.605584ms)
+✔ linear gradient is perpendicular to its drag direction in image pixels (5.920542ms)
+✔ duplicate mask identifiers are rejected rather than editing the wrong mask (0.602875ms)
+✔ identity preserves all 256 channel levels and source bytes (2.6945ms)
+✔ +1 EV doubles linear light rather than encoded RGB (0.187084ms)
+✔ exposure is bounded, deterministic, and keeps alpha (0.246875ms)
+✔ full desaturation produces neutral channels (0.103791ms)
+✔ shadows mostly affect dark tones and highlights mostly bright tones (0.252792ms)
+✔ histogram ignores transparent pixels and preserves channel counts (0.146083ms)
+✔ crop is centered, ratio correct, bounds safe after rounding (0.221667ms)
+✔ malformed recipes reject invalid numbers and crop rectangles (0.323917ms)
+✔ every supported adjustment produces finite output without mutating its source (0.380708ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89.235959

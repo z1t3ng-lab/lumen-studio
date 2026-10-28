@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "checks": [
+    "Packaged app launches",
+    "Native bridge exposed",
+    "Sample imports",
+    "Numeric exposure updates slider",
+    "MacFile menu present",
+    "No page errors",
+    "Native open bridge imports selected photo",
+    "Native save bridge writes PNG",
+    "Native save cancellation handled",
+    "Library restored on second app launch"
+  ],
+  "limits": [
+    "Dialog choices were supplied by test doubles; OS sheet interaction was not automated.",
+    "Maximum40MP image size not stress-tested."
+  ]
+}

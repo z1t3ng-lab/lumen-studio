@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "image": "Bundled1800x1200 landscape",
+  "features": "Curve, texture, clarity, dehaze, both denoise controls, radial mask, heal, manual optics and grain active together",
+  "outputBytes": 4875090,
+  "dimensions": {
+    "width": 1800,
+    "height": 1200
+  },
+  "previewSetupMs": 8047,
+  "fullResolutionExportMs": 1838,
+  "errors": [],
+  "limitations": [
+    "Timing includes browser encode and native download overhead; not a benchmark across hardware.",
+    "40MP limit not stress-tested."
+  ]
+}

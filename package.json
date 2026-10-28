@@ -1,0 +1,13 @@
+{
+  "name": "lumen-studio",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/engine.test.mjs tests/advanced-engine.test.mjs tests/audit-engine.test.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.58.2"
+  }
+}

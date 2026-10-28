@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "method": "Actual Mac UI operated through cua_repl, not mocked dialog return values.",
+  "checks": [
+    "Real Open photographs sheet displayed",
+    "Selected bundled alpine.jpg and imported it; photo dimensions1800x1200 in app",
+    "Real Save edited photograph sheet displayed",
+    "Saved JPEG into docs/advanced-validation",
+    "App reported Exported1800x1200px and returned to editable photo workspace"
+  ],
+  "output": {
+    "file": "lumen-0.3-native-check.jpg",
+    "bytes": 631001,
+    "sha256": "3a142bee6e64ffb49c907c99e43db1e95787ccaeb925c30b259068955398ae3a"
+  },
+  "limitations": [
+    "OS sheet cancellation tested through bridge doubles, not manually exercised in this pass."
+  ]
+}

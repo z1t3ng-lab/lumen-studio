@@ -13,7 +13,6 @@ __pycache__/
 # Local continuation notes and third-party captured code/raw sessions
 docs/CONTINUATION.md
 docs/evidence/*
-!docs/evidence/*.png
 !docs/evidence/REA-STATUS.md
 # Failed-run screenshots and generated photo exports
 docs/**/failure.png
@@ -25,3 +24,6 @@ docs/advanced-validation/*export*.png
 docs/advanced-validation/all-effects.png
 docs/advanced-validation/combined-effects.png
 docs/advanced-validation/lumen-*-native-check.jpg
+
+# Captured Adobe research screenshots remain local
+docs/validation/rea-evidence*.png

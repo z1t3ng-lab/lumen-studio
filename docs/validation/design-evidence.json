@@ -1,0 +1,63 @@
+{
+  "contract": "../DESIGN-CONTRACT.md \u2014 local photo editor; import, preview and export as primary workflow; dark neutral workspace; responsive desktop 1440x900 and mobile390x844.",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Browser checks exercised keyboard range adjustment, Cmd-Z, dialog Escape, visible focus outline, associated slider labels and named buttons. Screenshots reviewed for legible controls. This is a bounded interaction review, not a full WCAG or screen-reader audit."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "1440x900 editor document fits900px height and1440px width;390x844 viewport has no horizontal overflow and export dialog fits. Screenshots visually reviewed. Mobile adjustments stack vertically; sidebar presets/library/recipes are documented desktop-only controls."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Delayed browser decode exercised actual importing state; aria-busy true and Import disabled; loading.png retained. Operation then completed normally."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "Fresh profile displays import/sample actions and disables export; desktop-empty.png and first browser-results.json check."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Corrupt PNG and malformed recipe rejected without changing library; storage-denied simulation preserved editing/export. Three regression checks verify persistent unsaved-photo warning, cancellation after selection changes, and thin-image decode/export."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Mixed valid PNG and unsupported RAW retained valid image, rejected unsupported image with filename; partial-import.png."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Downloaded PNG decoded as320x240 withRGB111 after+1EV; full-resolution sample export1800x1200; JPEG resize1600px; persistence restored settings and source SHA256 after reload."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "No account/device authorization or persistent filesystem permission flow is used. Import is an explicit standard file chooser. Unavailable browser storage is exercised as an error state."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "editor-final.png",
+      "observation": "Final editor visually reviewed: central photo, clear controls, visible filmstrip and footer within viewport."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile-editor.png",
+      "observation": "Full-page capture from390x844 viewport visually reviewed: photo and stacked controls fit width; import/export remain visible at top."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile-export.png",
+      "observation": "Export dialog and close action fit390px mobile viewport."
+    },
+    {
+      "viewport": "1440x900",
+      "artifact": "loading.png",
+      "observation": "Actual import busy state with controls disabled during deliberately delayed decode."
+    }
+  ]
+}

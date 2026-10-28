@@ -1,0 +1,36 @@
+{
+  "version": "0.3.1",
+  "status": "pass",
+  "date": "2026-10-28",
+  "checks": {
+    "numerical": 27,
+    "original_browser": 25,
+    "advanced_browser": 20,
+    "geometry": 5,
+    "storage_and_edge_cases": 3,
+    "audit_browser": 6,
+    "packaged_desktop": 10,
+    "packaged_lifecycle": 2
+  },
+  "total_checks": 98,
+  "source_matches_bundle": true,
+  "source_sha256": {
+    "src/advanced-ui.js": "59cad4547679b0bc2565ed3d906d5446d74fa144788c22dae866e5a06b02e343",
+    "src/worker.js": "e804806c091a1ca307397f652b18aa1ac5334604d20a3a3af906801497cc085b",
+    "src/engine.js": "e73691b6e3e898484e1680d0a2114f9efe43883461586f70aa93ad9fe14c798c",
+    "src/app.js": "4b41847846964cdea7f516845cc6b09917f57e4ba6bb7f6407f1ae2d9016f6d5",
+    "src/storage.js": "8b0d62d5ede7897fe6a40acba8d5c1511d37abf9f63f6a7e892968eeece8ec25",
+    "src/advanced-engine.js": "72ab87a90e19952266cb83b42090a3a15183db19c6e8d1209781ec6bc675eb47",
+    "desktop/preload.cjs": "7d517b2b865c53b7df84db954ca7367b9d8b3d845947b8773e28f72770c245b3",
+    "desktop/main.cjs": "b151591a1a272206005dee0a6719c547935ce2edb349d595b84ea1c36e54e330",
+    "style.css": "02f18b5950e420728e5d6271ebf6f3fb3b40f1acc499753d7997c24ba19d016b",
+    "index.html": "f6614383e32475a9276c857c26903a094d29aea1e0df4687b2ce142cce7abc7f"
+  },
+  "previous_bundle": "dist/previous/Lumen Studio-0.3.0-20261028-123955.app",
+  "limits": [
+    "Native dialog choices mocked in this patch; real OS dialogs checked for0.3.0.",
+    "Maximum40MP all-effects exports not stress-tested.",
+    "Fixed linear masks and erasing can change existing recipe rendering.",
+    "Layout checks use actual macOS viewport height."
+  ]
+}

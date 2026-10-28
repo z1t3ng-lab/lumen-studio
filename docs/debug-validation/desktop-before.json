@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-28T16:36:58.875Z",
+  "profile": "/private/tmp/lumen-audit-xPcVzU",
+  "checks": [],
+  "status": "fail",
+  "failure": "Expected values to be strictly equal:\n\n0 !== 1\n"
+}

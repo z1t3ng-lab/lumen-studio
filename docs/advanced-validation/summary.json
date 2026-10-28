@@ -1,0 +1,18 @@
+{
+  "version": "0.3.0",
+  "status": "pass",
+  "checks": {
+    "numerical": 23,
+    "originalBrowser": 25,
+    "advancedBrowser": 20,
+    "geometry": 5,
+    "packagedDesktop": 10,
+    "realNativeDialogSteps": 5,
+    "combinedEffectsExport": 1
+  },
+  "limits": [
+    "Independent image algorithms; noAdobe equivalence",
+    "NoAI/generative tools or automaticlens database",
+    "40MPceiling notstress-tested"
+  ]
+}

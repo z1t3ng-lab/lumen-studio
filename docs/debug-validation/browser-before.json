@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-28T16:34:09.145Z",
+  "checks": [
+    {
+      "name": "Tightly spaced imported curve points remain editable",
+      "status": "fail",
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(points[1][0]>=.5&&points[1][0]<points[2][0])\n",
+      "pageErrors": []
+    },
+    {
+      "name": "Loading a cropped recipe exits drawing mode and restores its crop",
+      "status": "fail",
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n",
+      "pageErrors": []
+    },
+    {
+      "name": "Switching photos clears active tool button state",
+      "status": "fail",
+      "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+      "pageErrors": []
+    },
+    {
+      "name": "exposure numeric preview is committed when an invalid draft loses focus",
+      "status": "fail",
+      "error": "Expected values to be strictly equal:\n\n'' !== '1'\n",
+      "pageErrors": []
+    },
+    {
+      "name": "texture numeric preview is committed when an invalid draft loses focus",
+      "status": "fail",
+      "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+      "pageErrors": []
+    }
+  ]
+}

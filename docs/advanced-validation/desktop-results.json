@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "Packaged0.3.1 app opens with isolated persistent library",
+      "status": "pass"
+    },
+    {
+      "name": "MacFile menu invokes native import bridge",
+      "status": "pass"
+    },
+    {
+      "name": "Develop curve menu and native Undo/Redo restore effect pixels",
+      "status": "pass"
+    },
+    {
+      "name": "MacMasks menu and numeric localExposure paint a real mask",
+      "status": "pass"
+    },
+    {
+      "name": "Applying a look preserves local masks",
+      "status": "pass"
+    },
+    {
+      "name": "Packaged nativePNG export contains masked pixels at original resolution",
+      "status": "pass"
+    },
+    {
+      "name": "Native export cancellation leaves current edit intact",
+      "status": "pass"
+    },
+    {
+      "name": "Native recipe write failure reports error without page crash",
+      "status": "pass"
+    },
+    {
+      "name": "App relaunch restores new mask recipe and source file hash is unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "Packaged advanced UI fits1440×900 and1100×760 content sizes",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "profile": "/private/tmp/lumen-advanced-RBi7jk",
+  "limits": [
+    "Dialog selection/cancel results mocked here; real OS dialogs checked separately."
+  ],
+  "status": "pass"
+}

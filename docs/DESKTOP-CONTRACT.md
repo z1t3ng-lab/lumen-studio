@@ -1,0 +1,5 @@
+# Desktop interaction contract
+
+User request: make a desktop app for better UI interaction. TargetmacOS arm64, standalone .app stored within the workspace/dist and usable without the localNode server. Reuse web pixel engine; dedicated persistentElectron library. Shell hasMac traffic lights/title dragging, nativeOpen/Save sheets and keyboard menus. Renderer context isolation and sandbox enabled. No renderer arbitrary filesystem paths; native dialogs choose photo inputs/output. Required UI improvements: larger controls, direct numeric inputs, scroll/zoom/pan photo viewing, collapsible panels or adjustable sidebar widths if useful. Preserve existing web app functionality.
+
+Verify 1440x900 and1100x760 app windows. Exercise real packaged app launch, file dialog cancel/import, native export cancel/save, menu commands, persistence across relaunch, image editing numerical sanity, no page errors and window layout. Record unavailable/untested states candidly. Web photos are stored under browser origin; dedicated desktop origin has a separate library. Do not silently import unrelated browser data.

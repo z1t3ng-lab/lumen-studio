@@ -1,0 +1,146 @@
+{
+  "format": "lumen-studio-recipe",
+  "version": 2,
+  "photo": "masked.png",
+  "settings": {
+    "exposure": 0,
+    "contrast": 0,
+    "highlights": 0,
+    "shadows": 0,
+    "whites": 0,
+    "blacks": 0,
+    "temperature": 0,
+    "tint": 0,
+    "vibrance": 0,
+    "saturation": 0,
+    "sharpness": 0,
+    "vignette": 0,
+    "rotation": 0,
+    "crop": null,
+    "curves": {
+      "rgb": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "r": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "g": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "b": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "mixer": {
+      "red": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "orange": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "yellow": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "green": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "aqua": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "blue": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "purple": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      },
+      "magenta": {
+        "hue": 0,
+        "saturation": 0,
+        "luminance": 0
+      }
+    },
+    "texture": 0,
+    "clarity": 0,
+    "dehaze": 0,
+    "noiseReduction": 0,
+    "colorNoiseReduction": 0,
+    "grain": 0,
+    "grainSize": 25,
+    "grainRoughness": 50,
+    "distortion": 0,
+    "chromaticRed": 0,
+    "chromaticBlue": 0,
+    "defringe": 0,
+    "masks": [
+      {
+        "id": "393413f7-d88e-4e61-8284-c92d111fb065",
+        "name": "Linear 1",
+        "type": "linear",
+        "enabled": true,
+        "inverted": false,
+        "opacity": 1,
+        "feather": 0.7,
+        "start": {
+          "x": 0.2,
+          "y": 0.5
+        },
+        "end": {
+          "x": 0.8,
+          "y": 0.5
+        },
+        "strokes": [],
+        "adjustments": {
+          "exposure": 1,
+          "contrast": 0,
+          "highlights": 0,
+          "shadows": 0,
+          "temperature": 0,
+          "saturation": 0
+        }
+      }
+    ],
+    "retouches": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checks": [
+    "Brush coordinates match90degree rotated display",
+    "Applying crop preserves existing mask alignment",
+    "Mask mode shows uncropped rotated image for editing",
+    "Done restores crop without modifying recipe geometry",
+    "New sliders support doubleclick reset"
+  ]
+}

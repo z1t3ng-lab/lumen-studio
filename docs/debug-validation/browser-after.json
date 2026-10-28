@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28T16:37:20.721Z",
+  "checks": [
+    {
+      "name": "Tightly spaced imported curve points remain editable",
+      "status": "pass"
+    },
+    {
+      "name": "Loading a cropped recipe exits drawing mode and restores its crop",
+      "status": "pass"
+    },
+    {
+      "name": "Switching photos clears active tool button state",
+      "status": "pass"
+    },
+    {
+      "name": "Desktop exposure accepts a decimal typed one character at a time",
+      "status": "pass"
+    },
+    {
+      "name": "exposure numeric preview is committed when an invalid draft loses focus",
+      "status": "pass"
+    },
+    {
+      "name": "texture numeric preview is committed when an invalid draft loses focus",
+      "status": "pass"
+    }
+  ]
+}

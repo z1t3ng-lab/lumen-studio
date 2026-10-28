@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "checks": [
+    "Loading feedback and disabled conflicting controls observed, then successful editing",
+    "Actual Adobe evidence screenshot toggle changes visible capture",
+    "Evidence viewer top and comparison area fit mobile viewport"
+  ]
+}

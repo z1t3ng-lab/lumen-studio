@@ -1,0 +1,64 @@
+{
+  "contract": "../FEATURE-EXPANSION-CONTRACT.md \u2014 Lumen0.3 advanced tools; desktop1440x900/1100x760 and browser390x844; reversible recipes, explicit tool modes, preserved original and full export.",
+  "targetViewports": [
+    "1440x900",
+    "1100x760",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Curve keyboard point editing and numeric fields exercised; labelled ranges/buttons, visible focus reviewed; native menus exercised. ActualMacOpen/Save sheets checked throughCUA. Bounded keyboard/visual review, not complete screen-reader/WCAG certification."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Packaged app CSScontent sizes1440x900 and1100x760 have matching document widths/heights, checked in desktop-results.json. Browser390px width no horizontaloverflow. Screenshots reviewed; sidepane scrolling stays within frame; mobile stacks controls."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Worker render transitions exercised for every advanced effect; current image retained whileRendering, controls disable during imports/exports; native app returned toeditedpreview aftercompletion."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "Fresh library disablesMasks/Remove/Clipping, curve andeffect controls whileImport/sample remainavailable; advancedbrowser firstcheck andactualCUAinitialwindow."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Malformed advanced recipes rejected in numericaltests. Native recipewrite failure caught withtoast andnopageerror. Originalbrowsercorruptphoto/quota casesstillpass."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "OriginalbrowsermixedvalidPNG/unsupportedRAW retained validphotoandreportedbadfile. Existinglibrary andversion1recipe normalizewithneutraladvanced defaults; no silentfeature loss."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "All20advancedbrowser,10desktop,5geometry checks pass. Realnative JPEGsave verified on disk; combinedall-effects1800x1200PNGexport decoded successfully; masks/curve/mixer exportpixels verified."
+    },
+    "permission": {
+      "status": "pass",
+      "evidence": "RealMacOpen/Save sheets invoked throughCUA. Selectedbundledsampleimported; nativeSavechosen projectvalidationfolder producedJPEG and app reportedExported1800x1200px. Dialogcancelpath separately tested withdeterministicbridge doubles; no broader devicepermissions requested."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop-curves.png",
+      "observation": "Packaged desktop curve UI visuallyreviewed;photo/filmstrip staywithinframe whilecontrols scroll."
+    },
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop-masks.png",
+      "observation": "Packaged brushmaskpanel, localsettings andexplicitDoneinstruction shown;image remainscentral."
+    },
+    {
+      "viewport": "1100x760",
+      "artifact": "desktop-compact.png",
+      "observation": "Compactdesktopmaskmode reviewed:photo,toolbar,history,filmstrip andsidebarfit."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "advanced-mobile.png",
+      "observation": "Full-pagecapturefrom390x844 viewport:allnewpanelsstack belowphoto, usable labels/fields, nohorizontaloverflow."
+    }
+  ]
+}
