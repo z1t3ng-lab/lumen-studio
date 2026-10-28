@@ -1,0 +1,27 @@
+# Packaged apps, Electron runtime and rollback copies
+dist/
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local continuation notes and third-party captured code/raw sessions
+docs/CONTINUATION.md
+docs/evidence/*
+!docs/evidence/*.png
+!docs/evidence/REA-STATUS.md
+# Failed-run screenshots and generated photo exports
+docs/**/failure.png
+docs/**/*failure*.png
+docs/validation/alpine-edited.*
+docs/validation/thin-export.png
+docs/desktop-validation/native-export.png
+docs/advanced-validation/*export*.png
+docs/advanced-validation/all-effects.png
+docs/advanced-validation/combined-effects.png
+docs/advanced-validation/lumen-*-native-check.jpg
